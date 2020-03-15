@@ -1,1 +1,5 @@
 git init/git status/git add . / git status/ git commit -m "Type message" / git status / git push to GitHub URL / git -u push ....
+
+
+
+git pull / git status / git remote -v / git git -u push
