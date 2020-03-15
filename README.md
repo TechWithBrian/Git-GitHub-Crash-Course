@@ -7,7 +7,7 @@
 #### Learn GitHub basic commands - Step by Step. (for beginners from scratch) | Definitive guide tutorial project.
 
 
-PRIMERA PARTE: 
+##### PRIMERA PARTE: 
 
 - abrir git bass....
 
