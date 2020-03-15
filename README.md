@@ -89,6 +89,10 @@ Añadir el archivo ".gitignore"
 
 hasta ahora lo mas imporante es conocer que estamos trabajando con un proyecto con multiples archivos, y cuando estamos trabajando en un proyecto y quisieramos alterar esos archivos, para obtener una mini version de como alteramos el codigo...
 
+Si queremos ignorar una carpeta o folder  con todos los archivos dentro ponemos "nombrecarpeta/".
+Para ignorar un archivo en especifico dentro de una carpeta ponemos: "NombreCarpeta/NombreArchivo"
+Para ignorar un archivo basta con poner solamente tal cual el nombre del archivo que queremos ignorar
+
 ----------------------------------------------------------------------------------------------------------------
 
 
