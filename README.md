@@ -166,6 +166,8 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 - git status (para ver los cambios que han sucedido)
 
+- git remote -v (este comando nos indica todos los remotes que hay, y nos muestra que ya esta apuntando a origin remote en GitHub, GitLab o Bitbucket)
+
 2). git push -u origin master (ahora con este otro comando como tal vamos a subir/empujar nuestro codigo al repositorio en GitHub or GitLab)
 
 
