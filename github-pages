@@ -1,4 +1,32 @@
 GitHub Pages statics Host for websites...
 
+
+### NOTA:
+
+- Siempre se suben los archivos de la siguiente manera:
+
+Folders:
+
+Img.
+
+Css.
+
+Js.
+
+Index.html (siempre sera el archivo que muestre la pagina principal y que leeraa el github host por defecto).
+
+
+- luego para poner neustro dominio personalizado como: "mydominio.com", vamos a la configuracion DNS y apuntamos todas las IP de los servidores de GitHub que son 4, hacia nuestro dominio, ponemos el nombre de nuestro dominio en GitHub, forzamos el HTTPS Redirect y listo!.
+
+Ahor se puede visualizar nuestro sitio web y todos sus archivos estaticos, como paginaciones, imagenes, videos, GIFs, etc, etc... 
+
+Este host es gratuito e ideal para sisitos web mayormente de archivos estaticos simples, de documentacion, Blogs, etc...
+
+Ademas, no importa que el repo lo tengamos en modo privado...
+
+Algunas empresas como facebook y muchas mas, alojan todos los archivos estaticos, paginas estaticas, y paginas de documentaciones estaticas en GiHub pages.
+
+
+
 Official Source:
 https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain
