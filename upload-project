@@ -1,5 +1,5 @@
-git init/git status/git add . / git status/ git commit -m "Type message" / git status / git push to GitHub URL / git -u push ....
+git init/git status/git add . / git status/ git commit -m "Type message" / git status / git remote add origin https://github.com/TechWithBrian/example.git / git push -u origin master ....
 
 
 
-git pull / git status / git remote -v / git git -u push
+git pull / git remote add origin https://github.com/TechWithBrian/example.git / git status / git remote -v / git push -u origin master
