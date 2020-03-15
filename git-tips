@@ -14,3 +14,6 @@
 # Hacer una peticion de pull request...
 
 # Aceptar cambios del equipo y añadirlos a cualquier version o a la rama master....
+
+
+git stage area: git remote add origin https://github.com/TechWithBrian/example.git (guardar cambios que no quieres subir todavia al repo global en GitHub)
