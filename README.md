@@ -39,7 +39,7 @@ git commit -m 'type a message here' or en el editor VSCode (guardar los cambios 
 - git log (para ver las "fotos" or "Snapshot" que hemos hecho hasta ahora)
 
 ---------------------------------------------------------------------------------------------------------------
-Nota: hasta aqui los 3 comandos basicos son...
+##### Nota: hasta aqui los 3 comandos basicos son...
 
 - git add
 - git commit-m 'text here...'
@@ -47,7 +47,7 @@ Nota: hasta aqui los 3 comandos basicos son...
 ----------------------------------------------------------------------------------------------------------------
 
 
-SEGUNDA PARTE:
+##### SEGUNDA PARTE:
 
 
 Luego si descargamos, y estamos editando un proyecto o el mismo proyecto que hemos creado y estamos trabajando hasta este punto ...
@@ -67,7 +67,7 @@ Luego si descargamos, y estamos editando un proyecto o el mismo proyecto que hem
 - git log (nuevamente, para ver las "fotos" or "Snapshot" que hemos hecho hasta ahora)
 
 
- TERCERA PARTE:
+ ##### TERCERA PARTE:
 
 Añadir el archivo ".gitignore"
 
@@ -85,14 +85,14 @@ Añadir el archivo ".gitignore"
 
 
 ---------------------------------------------------------------------------------------------------------------
-Nota: 
+##### Nota: 
 
 hasta ahora lo mas imporante es conocer que estamos trabajando con un proyecto con multiples archivos, y cuando estamos trabajando en un proyecto y quisieramos alterar esos archivos, para obtener una mini version de como alteramos el codigo...
 
 ----------------------------------------------------------------------------------------------------------------
 
 
-CUARTA PARTE:
+##### CUARTA PARTE:
 
 Hacer una miniversion del projecto original, principal o master. Para trabajar en los cambios que haremos antes de añadirlo o enviarlo al projecto original o master... (hay que recordar que git funciona por ramas, la rama master o rama principal, luego las subramas que son las copias que se bajan los desarrolladores y estan trabajando en su entorno local de trabajo, para luego una vez hecho los cambios, trabajo, modificacion del codigo, etc... se añada al codigo principal global o proyecto general "master", paraposteriormente salir a produccion...)
 
@@ -121,7 +121,7 @@ Hacer una miniversion del projecto original, principal o master. Para trabajar e
 
 
 ---------------------------------------------------------------------------------------------------------------
-Nota: 
+##### Nota: 
 
 Entonces, resumiendo esta 4a. parte, vemos que es una manera de poder jugar con versiones alternativas, esa es la magia o la verdadera ensencia de git. 
 Asi que esto es lo tipico cuando trabajamos con un repositorio de codigo. Por lo tanto podemos entender que git es un repositorio para control de versiones para nuestros proyectos. 
@@ -131,7 +131,7 @@ que cada desarrollador enfocado en esa rama, pueda clonar/escargar, trabajar, ad
 ----------------------------------------------------------------------------------------------------------------
 
 
-QUINTA PARTE: 
+##### QUINTA PARTE: 
 
 Crear y Subir repo a GitHub or GitLab:
 
@@ -172,7 +172,7 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 
 ---------------------------------------------------------------------------------------------------------------
-Nota: 
+##### Nota: 
 
 Basicamente en GitHub como en GitLab son 2 comandos, que haran que enviemos todo el codigo a nuestro repo en github: 
 
@@ -188,6 +188,6 @@ Basicamente en GitHub como en GitLab son 2 comandos, que haran que enviemos todo
 Made with ❤ by...
 
 
-Brian Parker.
+##### Brian Pulgarin.
 
 Ceo & Co-founder of underfix.com
