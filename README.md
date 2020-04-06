@@ -25,6 +25,8 @@
 
 - Crear ".gitignore": para explicarle que archivos, como dependencias, etc... no queremos que suba...
 
+- git config --list
+
 - primer git snapshot:
 
      git config --global user.email "myemail@myemail.com"
