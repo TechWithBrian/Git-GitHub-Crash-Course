@@ -1,0 +1,33 @@
+git fetch origin master
+git merge origin master
+
+
+git fetch origin master:tmp
+git rebase tmp
+git push origin HEAD:master
+git branch -D tmp
+
+
+You should use git pull, that´s command do a git fetch and next do the git merge.
+
+If you use a git push origin master --force command, you may have problems in the future.
+
+
+git init
+git add README.md
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/userName/repoName.git
+git push --force origin master
+
+
+
+
+
+
+Sources:
+
+! [rejected]        master -> master (fetch first) error: failed to push some refs to 'https://github.com/brianparkerin/under
+
+
+https://stackoverflow.com/questions/28429819/rejected-master-master-fetch-first
