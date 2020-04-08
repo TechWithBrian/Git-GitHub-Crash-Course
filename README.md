@@ -178,6 +178,8 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 
 2). git push -u origin master (ahora con este otro comando como tal vamos a subir/empujar nuestro codigo al repositorio en GitHub or GitLab)
 
+- git push --force origin master
+
 
 ---------------------------------------------------------------------------------------------------------------
 ##### Nota: 
