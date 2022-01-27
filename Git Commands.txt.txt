@@ -1,0 +1,117 @@
+
+
+*Creating a repository:
+git init 
+git add .
+git commit -m "First Commit"
+
+
+*Creating .gitignore file:
+Ignoring files: My_file.txt
+Ignoring folders: My_Folder
+Linux: touch .gitignore
+windows: .gitignore
+git add .gitignore
+git commit -m "First Commit"
+
+
+*Creating README.md:
+git add README.md
+git commit -m "First Commit"
+
+
+*Pushing the new project to github:
+git branch -M main
+git remote add origin https://github.com/brianparkerin/neneke.git
+git push -u origin main
+
+
+*Pushing an existing repository from the command line (veces posteriores a la primera vez de hacer push):
+git push origin main
+
+
+
+____________________________________________________________________________________________________
+
+
+*Cloning a repository:
+git clone [url of github project]
+
+
+*Modfied the project and add new changes:
+git add .
+git commit -m "new updates"
+
+*See if there is something to commit
+git status
+
+
+*Viendo todo el historial de cambios en el projecto: 
+git log
+git log --stat
+git log --pretty
+
+
+*For List, create, or delete branches:
+git-branch [new_branch]
+
+
+*Making pull request for projects that we vurrent participating:
+(peticiones de fork al repositorio de un propietario para que añada a la rama origin o estandar en la que se esté trabajando nuestros cambios)
+
+1. fork project to local repository on GitHub:
+fork [of_the_project_that_you_want_add_new_changes]
+
+2. Clone the repository from the our remote repo to local enviroment in order to add changes:
+git clone [url_of_github_project]
+git status
+git checkout -b [project_name]
+git branch
+[just add changes, commit, start pull request...]
+git add
+git add README.md
+git commit "adding changes to pull request"
+git log
+salir: q+SHIFT+q
+
+3. Push/Pull the branch repository to owner origin master or current remote repo branch:
+git fetch
+git pull
+git remote add upstream [url_master_branch]
+
+git remot -v
+git push origin [branch-project-name-in-remote-repo]
+
+
+*git ignore commands:
+git add .
+git add .gitignore
+git commit -m "adding changes in gitignore file"
+git push origin main
+
+
+
+___________________________________________________________________________________________________
+
+
+
+For more information about & GitHub essencial tools for developers...
+
+Sources:
+
+https://www.atlassian.com/es/git/tutorials/inspecting-a-repository#:~:text=El%20comando%20git%20log%20es,en%20una%20rama%20de%20funci%C3%B3n.
+
+https://aprendegit.com/que-es-un-pull-request/
+
+https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
+
+https://git-scm.com/docs/git-branch
+
+https://www.youtube.com/watch?v=8A4TsoXJOs8
+
+
+
+
+
+
+
